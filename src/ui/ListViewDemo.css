@@ -1,0 +1,15 @@
+.list-view-demo .list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.list-view-demo .list .item{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 1em;
+}
+
+.list-view-demo .list .item.clickable{
+    cursor:pointer;
+}
